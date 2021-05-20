@@ -2,7 +2,7 @@
 
 ### Esse repositorio contem exemplos coletados do site oficial do GraphQL.
 
-##O que é GraphQL?
+## O que é GraphQL?
 
 O GraphQL seria uma nova forma do front-end consumir dados de forma tipada e facil. Em poucas palavras é isso que o GraphQL vem trazer para as aplicações uma facilidade na hora de consumir. Lembrando que consumir de forma facil não quer dizer melhora de performace e sim uma melhora na forma da escrita da consulta do dado.
 
