@@ -10,10 +10,12 @@ O GraphQL seria uma nova forma do front-end consumir dados de forma tipada e fac
 
 Acho que essa é a chave para o GraphQL, de forma rapida os Schemas são contratos em nossas buscas aos dados.
 
-## Simples
+## Projetos
+
+### Simples
 
 Na pasta Simples, temos uma aplicação simples que apenas consulta em um mock .
 
-## Running-Express
+### Running-Express
 
 Aqui temos algo um mais interesante quando usamos express podemos usar uma interface de consulta para trazer os dados da nossa FakeApi.
