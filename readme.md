@@ -57,3 +57,29 @@ type SpaceCat {
 ```
 
 Essa é a carinha do nosso Schema, ele possui tipagem e segue em seu atributos o padrão Camel Case.
+
+Quando utilizamos do Apollo o codigo toma uma sentido diferente e praticos, temos como montar as famosas Querys, elas que devolvem os objetos criados para a tela.
+
+```javascript
+      type Query {
+        forSpace: [SpaceCat!]!
+    }
+```
+
+### Mocks
+
+```javascript
+const mocks = {
+    SpaceCat: () => ({
+      age: () => 23,
+      missions: () => {
+        return {
+          name: 'Grumpy Cat',
+        };
+      },
+    })
+  };
+```
+
+Esse é um mock simples mas funcional se na Query executarmos 'forSpace' poderemos ver nosso mock.
+
